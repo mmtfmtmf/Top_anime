@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+    
+    .imghome {
+        background: linear-gradient(rgba(0,0,0,0.5), #000000c9), url(../img/img.3.jpg);
+        background-size: cover;
+        height: 93.8vh;
+        padding-top: 48px;
+    }
+    
+    .header {
+        width: 100%;
+        background-image: linear-gradient(to right, #080e0d , #1c1d1d);
+    }
+    
+    .navbar-brand {
+        color: white!important;
+    }
+    
+    .nav-link:hover {
+        color: #262626!important;
+    }
+    
+    .texthome {
+    color: white;
+    font-size: 2em;
+    margin-top: 200px;
+    }
+
+
+.navbar-brand:hover {
+    color: #460909!important;
+}
+
+.texthome {
+color: white;
+font-size: 2em;
+margin-top: 150px;
+}

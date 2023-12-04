@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.imghome {
+    background: linear-gradient(rgba(0,0,0,0.5), #000000c9), url(../img/img11.jpg);
+    background-size: cover;
+    height: 92.5vh;
+    padding-top: 48px;
+}
+
+.header {
+    width: 100%;
+    background-image: linear-gradient(to right, #275347 , #0d342d);
+    position: sticky;
+    top: 0 auto;
+}
+
+.navbar-brand {
+    color: white!important;
+}
+
+.nav-link {
+color: white!important;
+}
+
+.nav-link:hover {
+    color: #262626!important;
+}
+
+.texthome {
+color: white;
+font-size: 2em;
+margin-top: 200px;
+}
+
+.informationtop {
+    height: 30vh;
+    padding-top: 48px;
+    background: #0d342d;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+/* ПЕРШЕ АНІМЕ */
+
+.imgtopan1 {
+    background: linear-gradient(rgba(0,0,0,0.5), #000000c9), url(../img/topan111.jpg);
+        background-size: cover;
+        height: 93.8vh;
+        padding-top: 48px;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.texttopan{
+    color: white;
+    font-size: 1.6em;
+    margin-top: 45px;
+    }
+    
+
+    .topanime {
+        display: flex;
+        width: 60%;
+        height: 75%;
+        background: #262626;
+        border-radius: 35px;
+        justify-content: flex-start; 
+        background-color:rgba(0, 0, 0, 0.6);
+    }
+    
+    .imgposter {
+        border: 6px solid #343736;
+        border-radius: 25px;
+        transition: all .125s ease;
+    }
+
+    .eva {
+        height: 15vh;
+        padding-top: 48px;
+        background: #343736;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    /* ДРУГЕ АНІМЕ */
+
+    .imgtopan2 {
+        background: linear-gradient(rgba(0,0,0,0.5), #000000c9), url(../img/top22.jpg);
+            background-size: cover;
+            height: 93.8vh;
+            padding-top: 48px;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+    
+    .texttopan2{
+        color: white;
+        font-size: 1.6em;
+        margin-top: 45px;
+        }
+
+    .imgposter2 {
+        border: 6px solid #5e0000;
+        border-radius: 25px;
+        transition: all .125s ease;
+    }
+
+    .juju {
+        height: 15vh;
+        padding-top: 48px;
+        background: #000000;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    /* ТРЕТЄ АНІМЕ */
+
+    .imgtopan3 {
+        background: linear-gradient(rgba(0,0,0,0.5), #000000c9), url(../img/top3.jpg);
+            background-size: cover;
+            height: 93.8vh;
+            padding-top: 48px;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+    
+    .texttopan3 {
+        color: white;
+        font-size: 1.6em;
+        margin-top: 45px;
+        }
+    
+    .imgposter3 {
+        border: 6px solid #005e18;
+        border-radius: 25px;
+        transition: all .125s ease;
+    }
+
+    .kime {
+        height: 15vh;
+        padding-top: 48px;
+        background: #004511;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    /* ЧЕТВЕРТЕ АНІМЕ */
+
+    .imgtopan4 {
+        background: linear-gradient(rgba(0,0,0,0.5), #000000c9), url(../img/top4.jpg);
+            background-size: cover;
+            height: 93.8vh;
+            padding-top: 48px;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+    
+    .texttopan4 {
+        color: white;
+        font-size: 1.6em;
+        margin-top: 45px;
+        }
+    
+    .imgposter4 {
+        border: 6px solid rgb(32, 40, 53);
+        border-radius: 25px;
+        transition: all .125s ease;
+    }
+
+    .shin {
+        height: 15vh;
+        padding-top: 48px;
+        background: rgb(32, 40, 53);
+        text-align: center;
+        font-size: 2em;
+    }
+
+    /* П'ЯТЕ АНІМЕ */
+
+    .imgtopan5 {
+        background: linear-gradient(rgba(0,0,0,0.5), #000000c9), url(../img/top5.jpg);
+            background-size: cover;
+            height: 93.8vh;
+            padding-top: 48px;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+    
+    .texttopan5 {
+        color: white;
+        font-size: 1.6em;
+        margin-top: 40px;
+        }
+    
+    .imgposter5 {
+        border: 6px solid rgb(32, 40, 53);
+        border-radius: 25px;
+        transition: all .125s ease;
+    }
+
+    .shin {
+        height: 15vh;
+        padding-top: 48px;
+        background: rgb(32, 40, 53);
+        text-align: center;
+        font-size: 2em;
+    }
+
+    /* АНІМАЦІЯ */
+
+    .imgposter1:hover, .imgposter2:hover, .imgposter3:hover, .imgposter4:hover, .imgposter5:hover {
+transform: scale(1.1);
+    }
+
+    /* ФУТЕР */
+
+    .footer {
+        background-color: #1d1d1d;
+        display: flex;
+        
+    }
+    
+    .lmg1 {
+        width: 40px;
+        height: 40px;
+        background: url(../img/icons/instagram.png);
+    }
+    
+    .lmg2 {
+        width: 40px;
+        height: 40px;
+        background: url(../img/icons/youtube.png);
+    }
+
+    .row {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 0;
+        align-content: center;
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        display: flex;
+        height: 50px;
+        width: 100%;
+        gap: 0;
+        align-content: center;
+        
+    }
+
+    @media (max-width:1200px) {
+        .home {
+           font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+        }
+        .informationtop {
+            font-size: 20px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+        }
+        .topan1 {
+            font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+            object-fit: cover;
+            position: relative; 
+        }
+        .topan2 {
+            font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+            object-fit: cover;
+        } 
+        .topan3 {
+            font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+
+        .topan4 {
+            font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+
+        .topan5 {
+            font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+    }
+
+    @media (max-width:993px) {
+        .home {
+           font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+        }
+        .informationtop {
+            font-size: 20px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+        }
+        .topan1 {
+            font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+            object-fit: cover;
+            position: relative; 
+        }
+        .topan2 {
+            font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+            object-fit: cover;
+        } 
+        .topan3 {
+            font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+
+        .topan4 {
+            font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+
+        .topan5 {
+            font-size: 10px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+    }
